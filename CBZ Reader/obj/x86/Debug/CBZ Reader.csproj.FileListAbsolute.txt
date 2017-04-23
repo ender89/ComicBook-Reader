@@ -1,0 +1,30 @@
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\bin\Debug\CBZ Reader.exe
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\bin\Debug\CBZ Reader.pdb
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\MainWindow.baml
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\App.g.cs
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader_MarkupCompile.cache
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader.g.resources
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ_Reader.Properties.Resources.resources
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader.exe
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader.pdb
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\bin\Debug\Ionic.Zip.dll
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\bin\Debug\ChilkatDotNet4.dll
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader.exe
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader.pdb
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\bin\Debug\CBZ Reader.exe
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\bin\Debug\CBZ Reader.pdb
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\bin\Debug\ChilkatDotNet4.dll
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\bin\Debug\Ionic.Zip.dll
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\MainWindow.baml
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\App.g.cs
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader_MarkupCompile.cache
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ Reader.g.resources
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\CBZ_Reader.Properties.Resources.resources
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Nick\Dev\CBZ Reader\CBZ Reader\obj\x86\Debug\GenerateResource.write.1.tlog

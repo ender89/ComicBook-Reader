@@ -1,0 +1,14 @@
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\bin\Release\CBZ Reader.exe
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\bin\Release\CBZ Reader.pdb
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\bin\Release\Ionic.Zip.dll
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\MainWindow.baml
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\MainWindow.g.cs
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\App.g.cs
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\CBZ Reader_MarkupCompile.cache
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\CBZ Reader.g.resources
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\CBZ_Reader.Properties.Resources.resources
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\CBZ Reader.exe
+C:\Users\Nick\Documents\Dev\Comic Library\CBZ Reader\CBZ Reader\obj\x86\Release\CBZ Reader.pdb
