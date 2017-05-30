@@ -1,19 +1,13 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.IO;
 using System.Drawing;
+using System.IO;
 using Ionic.Zip;
 using System.Windows.Controls.Primitives;
 
@@ -206,7 +200,7 @@ namespace CBZ_Reader
         //Page turn functions
         private void next()
         {
-            if (zip.curpagenum != zip.totalpages - 1 && zip.dir != null)
+            if (zip.curpagenum != zip.dir.Count - 1 && zip.dir != null)
             {
                 zip.curpagenum++;
                 BitmapImage pagerendered = new BitmapImage();
@@ -346,13 +340,42 @@ namespace CBZ_Reader
             {
                 zip.openRAR(filepath);
             }
+
+            if (!Directory.Exists(@zip.thumbPath))
+                Directory.CreateDirectory(@zip.thumbPath);
+            int count = 1;
+            ThumbnailControl thumbnail;
+            foreach (string imageFile in zip.dir)
+            {
+                System.Drawing.Image pageImage = System.Drawing.Image.FromFile(@imageFile);
+                float thumbHeight = 200F;
+                float thumbWidth = (thumbHeight * pageImage.Width) / pageImage.Height;
+
+                System.Drawing.Image thumbImage = pageImage.GetThumbnailImage((int)thumbWidth, (int)thumbHeight, () => false, IntPtr.Zero);
+                string filename = zip.thumbPath + "\\" + Path.GetFileName(@imageFile);
+                thumbImage.Save(@filename);
+
+                thumbnail = new ThumbnailControl();
+                thumbnail.setText(count.ToString());
+                thumbnail.setImage(filename);
+                Thickness margin = thumbnail.Margin;
+                margin.Bottom = 5;
+                margin.Left = 10;
+                margin.Right = 10;
+                margin.Top = 5;
+                thumbnail.Margin = margin;
+                filmstrip.Items.Add(thumbnail);
+                count++;
+            }
+
+
             BitmapImage pagerendered = new BitmapImage();
             pagerendered.CacheOption = BitmapCacheOption.OnDemand;
             pagerendered.BeginInit();
             string pageURI = (string)zip.dir[0];
             pagerendered.UriSource = new Uri(@pageURI);
             pagerendered.EndInit();
-
+            
             if ((float)pagerendered.Width / (float)pagerendered.Height > 1)
             {
                 pagewidth = Main.Width;
@@ -449,8 +472,8 @@ namespace CBZ_Reader
     {
         public static string bpath = System.IO.Path.GetTempPath() + "CBZ\\";
         public ArrayList dir = new ArrayList();
-        public string path = bpath + "int";
-        
+        public string path;
+        public string thumbPath;
         public int totalpages = 0;
         public int curpagenum = 0;
         public ZipFile zip = null;
@@ -470,7 +493,7 @@ namespace CBZ_Reader
             int r = rand.Next();
             path = bpath + r.ToString();
             zip.ExtractAll(path);
-            
+            thumbPath = path + "\\Thumbs";
             string[] dirs = Directory.GetDirectories(path);
             if (dirs.GetLength(0) == 0)
             {
@@ -506,6 +529,7 @@ namespace CBZ_Reader
             Random rand = new Random();
             int r = rand.Next();
             path = bpath + r.ToString();
+            thumbPath = path + "\\Thumbs";
             System.IO.Directory.CreateDirectory(path);
             rar.Unrar(path);
 
